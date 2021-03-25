@@ -18,7 +18,7 @@ $fn=30;
 
 module pinHold(pins=12){
   difference(){
-    cube([3.48, pinWidth, 2.8],center=true);
+    cube([3.48, pinWidth+0.001, 2.8],center=true);
     translate([-0.6,0,0]){
       cylinder(d=1,h=10,center=true);
       translate([0,0,1.01])cylinder(d1=1,d2=1.9,h=0.8,center=true);
@@ -30,7 +30,7 @@ module pinHold(pins=12){
 
 module side(pins=12,center=true){
   y = center ? -(((pins-1)*pinWidth)/2) : 0;
-  translate([0,y,0]){
+  translate([0,y,0])union(){
     for(i = [0:1:pins-1]){
       translate([0,i*pinWidth,0])pinHold();
     }
@@ -66,6 +66,4 @@ module socket(pins=12){
     }
   }
 }
-
-socket(pinsPerSide);
 

@@ -49,7 +49,7 @@ module pin(){
   
 }
 
-module header(pins=12, center=true){
+module pinHeader(pins=12, center=true){
   c = center ? space*(pins-1)/2 : 0;
   translate([0,-c,0])
   union(){
@@ -58,5 +58,3 @@ module header(pins=12, center=true){
     }
   }
 }
-
-header(pins,center);
