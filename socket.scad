@@ -4,7 +4,8 @@
  * can create any size you would like. Can't guarantee that it will be
  * exactly correct but it should give you a hint of how big it is.
  *
- * Author: qwelyt (https://www.github.com/qwelyt/
+ * Author:  qwelyt (https://www.github.com/qwelyt/
+ * License: CERN-OHL-S v2 (https://ohwr.org/cern_ohl_s_v2.txt)
  */
 
 

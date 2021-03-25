@@ -4,6 +4,7 @@
  * pins, but 2.54mm is pretty standard.
  * 
  * Author: qwelyt (https://www.github.com/qwelyt/
+ * License: CERN-OHL-S v2 (https://ohwr.org/cern_ohl_s_v2.txt)
  */
 
 /*[Pins]*/
