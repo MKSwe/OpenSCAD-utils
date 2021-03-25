@@ -1,3 +1,13 @@
+/* A utility to create lathed DIL sockets
+ * This is entirely based on the 24 pin one (the most frequently used
+ * one for socketing a pro micro). It is however parametric so you
+ * can create any size you would like. Can't guarantee that it will be
+ * exactly correct but it should give you a hint of how big it is.
+ *
+ * Author: qwelyt (https://www.github.com/qwelyt/
+ */
+
+
 /*[How big of a socket]*/
 pinsPerSide=12;
 /*[Probably don't touch]*/
